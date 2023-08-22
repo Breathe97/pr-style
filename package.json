@@ -1,0 +1,9 @@
+{
+  "name": "pr-style",
+  "version": "1.0.0",
+  "description": "一些常用的 css 类。",
+  "type": "module",
+  "main": "./src/style/index.css",
+  "author": "Breathe",
+  "license": "ISC"
+}

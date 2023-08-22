@@ -1,0 +1,58 @@
+/* 毛玻璃 */
+.pr-backdrop-filter {
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+
+/* 底部安全距离 */
+.pr-safe-area-inset-bottom {
+  padding-bottom: constant(safe-area-inset-bottom); /*兼容 IOS<11.2*/
+  padding-bottom: env(safe-area-inset-bottom); /*兼容 IOS>11.2*/
+}
+
+.pr-flex {
+  display: flex;
+}
+
+.pr-flex-row {
+  flex-direction: row;
+}
+
+.pr-flex-col {
+  flex-direction: column;
+}
+
+.pr-flex-wrap {
+  flex-wrap: wrap;
+}
+
+.pr-flex-1 {
+  flex: 1;
+}
+
+.pr-text-hide-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pr-text-hide-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.pr-text-hide-3 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.pr-text-hide-4 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
